@@ -1,10 +1,10 @@
-package com.reservahub.reservahub;
+package com.reservationhub;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ReservahubApplicationTests {
+class ReservationhubApplicationTests {
 
 	@Test
 	void contextLoads() {
