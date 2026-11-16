@@ -1,0 +1,17 @@
+spring:
+  config:
+    import:
+      - optional:file:.env[.properties]
+  datasource:
+    url: jdbc:postgresql://localhost:5432/reservationhub
+    username: reservationhub
+    password: ${POSTGRES_PASSWORD}
+
+reservationhub:
+  reservations:
+    max-per-customer: 5
+
+
+server:
+  servlet:
+    context-path: /api/v1/
